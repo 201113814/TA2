@@ -13,7 +13,7 @@ public class AlumnoTest {
 
 		TestOne test= new TestOne();
 		Alumno resulto= test.alumnos("maria", "segovia", 20);
-		assertNotNull(resulto);
+		assertNotNull(null);
 		
 	}
 
