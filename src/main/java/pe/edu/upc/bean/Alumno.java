@@ -1,6 +1,6 @@
-package Testing;
+package pe.edu.upc.bean;
 
-public class alumno {
+public class Alumno {
 	String nombre;
 	String apellido;
 	int edad;

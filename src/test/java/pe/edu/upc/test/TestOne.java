@@ -1,6 +1,7 @@
-package Testing;
+package pe.edu.upc.test;
 
-import pe.edu.upc.bean.alumno;
+import pe.edu.upc.bean.Animal;
+import pe.edu.upc.bean.Alumno;
 
 
 public class TestOne {
@@ -43,9 +44,9 @@ public class TestOne {
 			 return true;
 	 }
 	 
-	 public alumno operacion(int valor)/*valor null*/
+	 public Alumno operacion(int valor)/*valor null*/
 	 {
-		alumno alumno1=new alumno(); 
+		Alumno alumno1=new Alumno(); 
 		alumno1.setNombre("Maria");
 		alumno1.setApellido("segovia");
 		alumno1.setEdad(valor);
@@ -112,9 +113,9 @@ public class TestOne {
 		 return arreglo1;
 	 }
 	 
-	 public alumno alumnos(String nombre, String apellido, int edad)
+	 public Alumno alumnos(String nombre, String apellido, int edad)
 	 {
-		 alumno alumno1 = new alumno();
+		 Alumno alumno1 = new Alumno();
 		 alumno1.setNombre(nombre);
 		 alumno1.setApellido(apellido);
 		 alumno1.setEdad(edad);

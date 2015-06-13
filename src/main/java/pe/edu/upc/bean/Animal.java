@@ -1,4 +1,4 @@
-package Testing;
+package pe.edu.upc.bean;
 
 public class Animal {
 	
