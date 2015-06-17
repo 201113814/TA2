@@ -65,19 +65,19 @@ public class FuncionesTest {
 		assertNotEquals(0, resulto);
 	}
 	
-	@Test
+	@Test(expected=Exception.class)
 	public void Exptest() {
 
 		TestOne test= new TestOne();
-		int resulto= test.dividir(3, 0);
-		assertEquals(resulto, 9);
+		test.dividir(3, 0);
 	}
 	
-	@Test
+	@Test (expected=ArrayIndexOutOfBoundsException.class)
 		public void Exp2test() {
+		
+		
 			TestOne test= new TestOne();
-			String resulto= test.ingreso(-4,30);
-			assertEquals("error",resulto);
+			 test.ingreso(-4,30);
 		}
 	
 	@Test

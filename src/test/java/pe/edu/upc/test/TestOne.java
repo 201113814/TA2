@@ -137,30 +137,20 @@ public class TestOne {
 	 {
 
 		 int div=0;
-		 try
-		 {
 			 div=a/b;
-		 }catch(Exception e)
-		 {
-			 div=9;
-		 }
+			 
 		 return div;
 		 
 	}
 	 
-	 public String ingreso(int numero, int longitud)
+	 public String ingreso (int numero, int longitud)
 	 {
-		 
+		 Exception caught = null;
 		 int [] array = new int[longitud];
-         try
-         {
+         
 	         array[numero] = 24;
-	         return "exito";
-         }
-         catch(ArrayIndexOutOfBoundsException e)
-         {
-	         return"error";
-         }
+	         return "ok";
+	         
 	 }
 	 
 }
