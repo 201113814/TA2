@@ -48,7 +48,7 @@ public class FuncionesBDTest {
 		
 		PersonaDao PersonaDao=DAO.getPersonaDao();
 		int num=PersonaDao.listarTodos().size();
-		PersonaDao.borrar("42");
+		PersonaDao.borrar("51");
 		
 		assertEquals(num-1, DAO.getPersonaDao().listarTodos().size());
 	}
